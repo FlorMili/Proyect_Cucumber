@@ -29,7 +29,7 @@ public class StepDefAccount extends BasePage {
 	   driver.findElement(By.id("firstname")).sendKeys("Flor2");
 	   driver.findElement(By.id("middlename")).sendKeys("F.");
 	   driver.findElement(By.id("lastname")).sendKeys("Perez2");
-	   driver.findElement(By.id("email_address")).sendKeys("pruebas85@gmail.com");
+	   driver.findElement(By.id("email_address")).sendKeys("pruebas92@gmail.com");
 	   driver.findElement(By.id("password")).sendKeys("prueba123");
 	   driver.findElement(By.id("confirmation")).sendKeys("prueba123");
 	}

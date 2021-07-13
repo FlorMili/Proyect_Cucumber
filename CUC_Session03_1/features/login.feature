@@ -13,4 +13,4 @@ Feature: Madison Island Login
   
     Examples: users
       | username            | password  | 
-      | pruebas85@gmail.com | prueba123 |
+      | pruebas92@gmail.com | prueba123 |

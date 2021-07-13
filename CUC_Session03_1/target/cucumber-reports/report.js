@@ -38,28 +38,28 @@ formatter.match({
   "location": "StepDefAccount.flor_is_on_the_Store_Registration_page()"
 });
 formatter.result({
-  "duration": 11102198200,
+  "duration": 9768370300,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefAccount.i_enters_all_required_registration_fields()"
 });
 formatter.result({
-  "duration": 1000086900,
+  "duration": 913145300,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefAccount.i_click_in_register_button()"
 });
 formatter.result({
-  "duration": 2879270300,
+  "duration": 3111057300,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefAccount.a_store_account_is_created()"
 });
 formatter.result({
-  "duration": 318882400,
+  "duration": 262706900,
   "status": "passed"
 });
 formatter.uri("login.feature");
@@ -134,7 +134,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "pruebas80@gmail.com",
+        "pruebas85@gmail.com",
         "prueba123"
       ],
       "line": 16,
@@ -173,7 +173,7 @@ formatter.step({
 });
 formatter.step({
   "line": 9,
-  "name": "user enters \"pruebas80@gmail.com\" and \"prueba123\"",
+  "name": "user enters \"pruebas85@gmail.com\" and \"prueba123\"",
   "matchedColumns": [
     0,
     1
@@ -199,34 +199,34 @@ formatter.match({
   "location": "StepDefLogin.user_launch_Chrome_browser()"
 });
 formatter.result({
-  "duration": 10270190500,
+  "duration": 10801717600,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefLogin.title_Store_Homepage_is_Madison_Island()"
 });
 formatter.result({
-  "duration": 12098400,
+  "duration": 17273200,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefLogin.go_to_account_menu_and_click()"
 });
 formatter.result({
-  "duration": 135729900,
+  "duration": 158132900,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefLogin.click_on_login_link()"
 });
 formatter.result({
-  "duration": 1421641400,
+  "duration": 1297984400,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "pruebas80@gmail.com",
+      "val": "pruebas85@gmail.com",
       "offset": 13
     },
     {
@@ -237,28 +237,28 @@ formatter.match({
   "location": "StepDefLogin.user_enters_and(String,String)"
 });
 formatter.result({
-  "duration": 395966400,
+  "duration": 387714900,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefLogin.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 1420246500,
+  "duration": 2803289500,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefLogin.title_Dashboard_is_My_Account()"
 });
 formatter.result({
-  "duration": 34429900,
-  "error_message": "java.lang.AssertionError: expected [My Account] but found [Customer Login]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\r\n\tat org.testng.Assert.assertEquals(Assert.java:122)\r\n\tat org.testng.Assert.assertEquals(Assert.java:629)\r\n\tat org.testng.Assert.assertEquals(Assert.java:639)\r\n\tat com.store.steps.StepDefLogin.title_Dashboard_is_My_Account(StepDefLogin.java:57)\r\n\tat ✽.Then title Dashboard is My Account(login.feature:11)\r\n",
-  "status": "failed"
+  "duration": 24069100,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefLogin.close_the_browser()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 156625300,
+  "status": "passed"
 });
 });
