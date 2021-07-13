@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="28.990741">
+<testcase classname="create account on Maddison Store" name="User successfully creates on Store Account" time="15.300438">
+<system-out><![CDATA[Given Flor is on the Store Registration page................................passed
+When I enters all required registration fields..............................passed
+And I click in register button..............................................passed
+Then a store account is created.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Madison Island Login" name="Login test Scenario" time="13.690303">
+<failure message="java.lang.AssertionError: expected [My Account] but found [Customer Login]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:99)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:1037)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:140)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:122)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:629)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:639)&#13;&#10;&#9;at com.store.steps.StepDefLogin.title_Dashboard_is_My_Account(StepDefLogin.java:57)&#13;&#10;&#9;at ✽.Then title Dashboard is My Account(login.feature:11)&#13;&#10;"><![CDATA[Given user launch Chrome browser............................................passed
+When title Store Homepage is Madison Island.................................passed
+Then go to account menu and click...........................................passed
+Then click on login link....................................................passed
+Then user enters "pruebas80@gmail.com" and "prueba123"......................passed
+Then user clicks on login button............................................passed
+Then title Dashboard is My Account..........................................failed
+Then close the browser......................................................skipped
+
+StackTrace:
+java.lang.AssertionError: expected [My Account] but found [Customer Login]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at com.store.steps.StepDefLogin.title_Dashboard_is_My_Account(StepDefLogin.java:57)
+	at ✽.Then title Dashboard is My Account(login.feature:11)
+]]></failure>
+</testcase>
+</testsuite>
